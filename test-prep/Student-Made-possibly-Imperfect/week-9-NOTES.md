@@ -1,3 +1,6 @@
+# Tuesday
+
+
 # **Notes**
 
 ## **Getting CSS Into Your HTML**
@@ -267,6 +270,14 @@ h2.subheading {
   - Shadows take values such as, the horizontal & vertical offsets of the shadow, the blur radius of the shadow, the spread radius, and of course the colors.
 
 ---
+
+
+------
+---
+# Wednesday
+---
+------
+
 # **Notes**
 
 ## **Intro to AJAX**
@@ -395,6 +406,12 @@ fetch("https://jservice.xyz/api/categories", {
 - Always rememer to check to see if the `ok` response is received so that potentials errors can be handled correctly.
 
 ---
+
+------
+--
+# Thursday
+---
+------
 # **Notes**
 
 ## **The Box Model**
@@ -685,17 +702,17 @@ fetch("https://jservice.xyz/api/categories", {
 
 ```css
 .item-1 {
-  grid-row-start: row2-start; /* Item starts at row line named “row2-start” */
+  grid-row-start: row2-start; /* Item starts at row line named "row2-start" */
   grid-row-end: 5; /* Item ends at row line 5 */
   grid-column-start: 1; /* Item starts at column line 1 */
-  grid-column-end: three; /* Item ends at column line named “three” */
+  grid-column-end: three; /* Item ends at column line named "three" */
 }
 
 .item-2 {
   grid-row-start: 1; /* Item starts at row line 1 */
   grid-row-end: span 2; /* Item spans two rows and ends at row line 3 */
   grid-column-start: 3; /* Item starts at column line 3 */
-  grid-column-end: span col5-start; /* Item spans and ends at line named “col5-start” */
+  grid-column-end: span col5-start; /* Item spans and ends at line named "col5-start" */
 }
 ```
 
@@ -715,6 +732,14 @@ fetch("https://jservice.xyz/api/categories", {
   - It can take four values: start, end, center, stretch.
 
 ---
+
+
+
+------
+---
+# Friday
+---
+------
 # **Notes**
 
 ## **CSS Hover Effect and Handling Overflow**
