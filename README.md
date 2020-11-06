@@ -13,14 +13,14 @@
 │   │   ├── eod
 │   │   ├── lo-s
 │   │   │   └── learning-objectives
-│   │   ├── misc
-│   │   │   └── styles
-│   │   └── my
+│   │   └── misc
+│   │       └── styles
 │   ├── D2
 │   │   ├── bod
 │   │   │   ├── lecture
 │   │   │   └── readings
 │   │   ├── eod
+│   │   │   └── public
 │   │   ├── examples
 │   │   │   ├── CSS_Positioning
 │   │   │   │   ├── CSS_Positioning
@@ -29,38 +29,34 @@
 │   │   │   ├── example-project
 │   │   │   └── flex
 │   │   │       └── flex
-│   │   ├── lo-s
-│   │   │   └── public
-│   │   └── my
+│   │   └── lo-s
 │   ├── D4
 │   │   ├── bod
 │   │   │   └── fruit-basket-demo
 │   │   ├── eod
+│   │   │   └── joes-eod-lecture
+│   │   │       └── server
 │   │   ├── lo-s
 │   │   ├── misc
 │   │   │   └── Interactivity-CSS
 │   │   └── my
 │   ├── D5
-│   │   ├── bod
-│   │   ├── eod
-│   │   ├── lo-s
-│   │   ├── misc
-│   │   └── my
+│   │   └── misc
 │   └── d3
 │       ├── bod
 │       │   └── w3d3
 │       ├── eod
+│       │   ├── mdn-positioning-demo
 │       │   └── w3d3post-lecture
 │       │       └── w3d3post-lecture
 │       ├── lo-s
 │       │   ├── W09D3-LOs
 │       │   │   └── mdn-positioning-demo
 │       │   └── learning_objectives
-│       ├── misc
-│       │   ├── css
-│       │   ├── images
-│       │   └── lecture
-│       └── my
+│       └── misc
+│           ├── css
+│           ├── images
+│           └── lecture
 ├── outline
 ├── projects
 │   ├── D1
@@ -75,314 +71,34 @@
 │   │           ├── css-modernize-craigslist-starter
 │   │           └── instructions-resources
 │   ├── D2
-│   │   ├── first-attempt
-│   │   ├── misc
-│   │   │   ├── past-soln
-│   │   │   └── resources
 │   │   └── official
-│   │       └── ajax-project-solution
-│   │           └── public
+│   │       └── solutions
+│   │           ├── grid-project
+│   │           └── trello
 │   ├── D4
 │   │   ├── first-attempt
 │   │   │   ├── documentation
 │   │   │   ├── instructions
-│   │   │   ├── node_modules
-│   │   │   │   ├── @sindresorhus
-│   │   │   │   │   └── is
-│   │   │   │   │       └── dist
-│   │   │   │   ├── @szmarczak
-│   │   │   │   │   └── http-timer
-│   │   │   │   │       └── source
-│   │   │   │   ├── abbrev
-│   │   │   │   ├── accepts
-│   │   │   │   ├── ansi-align
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       └── string-width
-│   │   │   │   ├── ansi-regex
-│   │   │   │   ├── ansi-styles
-│   │   │   │   ├── anymatch
-│   │   │   │   ├── array-flatten
-│   │   │   │   ├── axios
-│   │   │   │   │   ├── dist
-│   │   │   │   │   └── lib
-│   │   │   │   │       ├── adapters
-│   │   │   │   │       ├── cancel
-│   │   │   │   │       ├── core
-│   │   │   │   │       └── helpers
-│   │   │   │   ├── balanced-match
-│   │   │   │   ├── binary-extensions
-│   │   │   │   ├── body-parser
-│   │   │   │   │   ├── lib
-│   │   │   │   │   │   └── types
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── debug
-│   │   │   │   │       │   └── src
-│   │   │   │   │       └── ms
-│   │   │   │   ├── boxen
-│   │   │   │   ├── brace-expansion
-│   │   │   │   ├── braces
-│   │   │   │   │   └── lib
-│   │   │   │   ├── bytes
-│   │   │   │   ├── cacheable-request
-│   │   │   │   │   ├── node_modules
-│   │   │   │   │   │   ├── get-stream
-│   │   │   │   │   │   └── lowercase-keys
-│   │   │   │   │   └── src
-│   │   │   │   ├── camelcase
-│   │   │   │   ├── chalk
-│   │   │   │   │   ├── node_modules
-│   │   │   │   │   │   ├── has-flag
-│   │   │   │   │   │   └── supports-color
-│   │   │   │   │   └── source
-│   │   │   │   ├── chokidar
-│   │   │   │   │   ├── lib
-│   │   │   │   │   └── types
-│   │   │   │   ├── ci-info
-│   │   │   │   ├── cli-boxes
-│   │   │   │   ├── clone-response
-│   │   │   │   │   └── src
-│   │   │   │   ├── color-convert
-│   │   │   │   ├── color-name
-│   │   │   │   ├── concat-map
-│   │   │   │   │   ├── example
-│   │   │   │   │   └── test
-│   │   │   │   ├── configstore
-│   │   │   │   ├── content-disposition
-│   │   │   │   ├── content-type
-│   │   │   │   ├── cookie
-│   │   │   │   ├── cookie-signature
-│   │   │   │   ├── crypto-random-string
-│   │   │   │   ├── debug
-│   │   │   │   │   ├── dist
-│   │   │   │   │   └── src
-│   │   │   │   ├── decompress-response
-│   │   │   │   ├── deep-extend
-│   │   │   │   │   └── lib
-│   │   │   │   ├── defer-to-connect
-│   │   │   │   │   └── dist
-│   │   │   │   ├── depd
-│   │   │   │   │   └── lib
-│   │   │   │   │       ├── browser
-│   │   │   │   │       └── compat
-│   │   │   │   ├── destroy
-│   │   │   │   ├── dot-prop
-│   │   │   │   ├── duplexer3
-│   │   │   │   ├── ee-first
-│   │   │   │   ├── emoji-regex
-│   │   │   │   │   └── es2015
-│   │   │   │   ├── encodeurl
-│   │   │   │   ├── end-of-stream
-│   │   │   │   ├── escape-goat
-│   │   │   │   ├── escape-html
-│   │   │   │   ├── etag
-│   │   │   │   ├── express
-│   │   │   │   │   ├── lib
-│   │   │   │   │   │   ├── middleware
-│   │   │   │   │   │   └── router
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── debug
-│   │   │   │   │       │   └── src
-│   │   │   │   │       └── ms
-│   │   │   │   ├── fill-range
-│   │   │   │   ├── finalhandler
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── debug
-│   │   │   │   │       │   └── src
-│   │   │   │   │       └── ms
-│   │   │   │   ├── follow-redirects
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── debug
-│   │   │   │   │       │   └── src
-│   │   │   │   │       └── ms
-│   │   │   │   ├── forwarded
-│   │   │   │   ├── fresh
-│   │   │   │   ├── fsevents
-│   │   │   │   ├── get-stream
-│   │   │   │   ├── glob-parent
-│   │   │   │   ├── global-dirs
-│   │   │   │   ├── got
-│   │   │   │   │   └── source
-│   │   │   │   │       └── utils
-│   │   │   │   ├── graceful-fs
-│   │   │   │   ├── has-flag
-│   │   │   │   ├── has-yarn
-│   │   │   │   ├── http-cache-semantics
-│   │   │   │   ├── http-errors
-│   │   │   │   ├── iconv-lite
-│   │   │   │   │   ├── encodings
-│   │   │   │   │   │   └── tables
-│   │   │   │   │   └── lib
-│   │   │   │   ├── ignore-by-default
-│   │   │   │   ├── import-lazy
-│   │   │   │   ├── imurmurhash
-│   │   │   │   ├── inherits
-│   │   │   │   ├── ini
-│   │   │   │   ├── ipaddr.js
-│   │   │   │   │   └── lib
-│   │   │   │   ├── is-binary-path
-│   │   │   │   ├── is-ci
-│   │   │   │   ├── is-extglob
-│   │   │   │   ├── is-fullwidth-code-point
-│   │   │   │   ├── is-glob
-│   │   │   │   ├── is-installed-globally
-│   │   │   │   ├── is-npm
-│   │   │   │   ├── is-number
-│   │   │   │   ├── is-obj
-│   │   │   │   ├── is-path-inside
-│   │   │   │   ├── is-typedarray
-│   │   │   │   ├── is-yarn-global
-│   │   │   │   ├── json-buffer
-│   │   │   │   │   └── test
-│   │   │   │   ├── keyv
-│   │   │   │   │   └── src
-│   │   │   │   ├── latest-version
-│   │   │   │   ├── lowercase-keys
-│   │   │   │   ├── make-dir
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       └── semver
-│   │   │   │   │           └── bin
-│   │   │   │   ├── media-typer
-│   │   │   │   ├── merge-descriptors
-│   │   │   │   ├── methods
-│   │   │   │   ├── mime
-│   │   │   │   │   └── src
-│   │   │   │   ├── mime-db
-│   │   │   │   ├── mime-types
-│   │   │   │   ├── mimic-response
-│   │   │   │   ├── minimatch
-│   │   │   │   ├── minimist
-│   │   │   │   │   ├── example
-│   │   │   │   │   └── test
-│   │   │   │   ├── ms
-│   │   │   │   ├── negotiator
-│   │   │   │   │   └── lib
-│   │   │   │   ├── nodemon
-│   │   │   │   │   ├── bin
-│   │   │   │   │   ├── doc
-│   │   │   │   │   │   └── cli
-│   │   │   │   │   └── lib
-│   │   │   │   │       ├── cli
-│   │   │   │   │       ├── config
-│   │   │   │   │       ├── help
-│   │   │   │   │       ├── monitor
-│   │   │   │   │       ├── rules
-│   │   │   │   │       └── utils
-│   │   │   │   ├── nopt
-│   │   │   │   │   ├── bin
-│   │   │   │   │   ├── examples
-│   │   │   │   │   └── lib
-│   │   │   │   ├── normalize-path
-│   │   │   │   ├── normalize-url
-│   │   │   │   ├── on-finished
-│   │   │   │   ├── once
-│   │   │   │   ├── p-cancelable
-│   │   │   │   ├── package-json
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       └── semver
-│   │   │   │   │           └── bin
-│   │   │   │   ├── parseurl
-│   │   │   │   ├── path-to-regexp
-│   │   │   │   ├── picomatch
-│   │   │   │   │   └── lib
-│   │   │   │   ├── prepend-http
-│   │   │   │   ├── proxy-addr
-│   │   │   │   ├── pstree.remy
-│   │   │   │   │   ├── lib
-│   │   │   │   │   └── tests
-│   │   │   │   │       └── fixtures
-│   │   │   │   ├── pump
-│   │   │   │   ├── pupa
-│   │   │   │   ├── qs
-│   │   │   │   │   ├── dist
-│   │   │   │   │   ├── lib
-│   │   │   │   │   └── test
-│   │   │   │   ├── range-parser
-│   │   │   │   ├── raw-body
-│   │   │   │   ├── rc
-│   │   │   │   │   ├── lib
-│   │   │   │   │   └── test
-│   │   │   │   ├── readdirp
-│   │   │   │   ├── registry-auth-token
-│   │   │   │   │   └── test
-│   │   │   │   ├── registry-url
-│   │   │   │   ├── responselike
-│   │   │   │   │   └── src
-│   │   │   │   ├── safe-buffer
-│   │   │   │   ├── safer-buffer
-│   │   │   │   ├── semver
-│   │   │   │   │   └── bin
-│   │   │   │   ├── semver-diff
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       └── semver
-│   │   │   │   │           └── bin
-│   │   │   │   ├── send
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── debug
-│   │   │   │   │       │   ├── node_modules
-│   │   │   │   │       │   │   └── ms
-│   │   │   │   │       │   └── src
-│   │   │   │   │       └── ms
-│   │   │   │   ├── serve-static
-│   │   │   │   ├── setprototypeof
-│   │   │   │   │   └── test
-│   │   │   │   ├── signal-exit
-│   │   │   │   ├── statuses
-│   │   │   │   ├── string-width
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── ansi-regex
-│   │   │   │   │       ├── emoji-regex
-│   │   │   │   │       │   └── es2015
-│   │   │   │   │       ├── is-fullwidth-code-point
-│   │   │   │   │       └── strip-ansi
-│   │   │   │   ├── strip-ansi
-│   │   │   │   ├── strip-json-comments
-│   │   │   │   ├── supports-color
-│   │   │   │   ├── term-size
-│   │   │   │   │   └── vendor
-│   │   │   │   │       ├── macos
-│   │   │   │   │       └── windows
-│   │   │   │   ├── to-readable-stream
-│   │   │   │   ├── to-regex-range
-│   │   │   │   ├── toidentifier
-│   │   │   │   ├── touch
-│   │   │   │   │   └── bin
-│   │   │   │   ├── type-fest
-│   │   │   │   │   └── source
-│   │   │   │   ├── type-is
-│   │   │   │   ├── typedarray-to-buffer
-│   │   │   │   │   └── test
-│   │   │   │   ├── undefsafe
-│   │   │   │   │   ├── lib
-│   │   │   │   │   └── node_modules
-│   │   │   │   │       ├── debug
-│   │   │   │   │       │   └── src
-│   │   │   │   │       └── ms
-│   │   │   │   ├── unique-string
-│   │   │   │   ├── unpipe
-│   │   │   │   ├── update-notifier
-│   │   │   │   ├── url-parse-lax
-│   │   │   │   ├── utils-merge
-│   │   │   │   ├── vary
-│   │   │   │   ├── widest-line
-│   │   │   │   ├── wrappy
-│   │   │   │   ├── write-file-atomic
-│   │   │   │   └── xdg-basedir
 │   │   │   └── public
 │   │   ├── misc
 │   │   │   ├── ajax-prep
 │   │   │   │   ├── instructions-and-notes
 │   │   │   │   └── public
 │   │   │   └── d4
-│   │   │       ├── responsive-design-aa-times
-│   │   │       │   ├── images
-│   │   │       │   ├── scripts
-│   │   │       │   ├── specifications
-│   │   │       │   │   ├── screenshots
-│   │   │       │   │   └── text
-│   │   │       │   └── stylesheets
-│   │   │       │       └── components
-│   │   │       └── responsive-design-whack-a-mole
+│   │   │       └── ajax-project-solution
+│   │   │           └── ajax-project-solution
+│   │   │               └── public
 │   │   └── official
+│   │       ├── OFFICIAL_OFFICIAL
+│   │       │   └── W9D4
+│   │       │       ├── catstagram-solution
+│   │       │       │   ├── async-await
+│   │       │       │   │   └── public
+│   │       │       │   └── then-catch
+│   │       │       │       └── public
+│   │       │       └── learning-objectives
+│   │       ├── ajax-project-solution
+│   │       │   └── public
 │   │       ├── catstagram
 │   │       │   └── ajax-project-solution
 │   │       │       ├── node_modules
@@ -609,52 +325,51 @@
 │   │       └── server
 │   │           └── public
 │   ├── D5
-│   │   ├── first-attempt
-│   │   │   └── responsive-design-file-browser-starter-master
-│   │   │       ├── directory-browsed
-│   │   │       │   └── javascript-allonge-six
-│   │   │       │       └── manuscript
-│   │   │       │           ├── code
-│   │   │       │           ├── images
-│   │   │       │           └── markdown
-│   │   │       │               ├── 0.Functions
-│   │   │       │               │   └── recipes
-│   │   │       │               ├── 1.ComposingData
-│   │   │       │               │   └── recipes
-│   │   │       │               ├── 2.Objects and State
-│   │   │       │               │   └── recipes
-│   │   │       │               ├── 3.Collections
-│   │   │       │               ├── 4.Metaobjects
-│   │   │       │               ├── 5.Instances and Classes
-│   │   │       │               │   └── recipes
-│   │   │       │               ├── 6.Class Mixins
-│   │   │       │               ├── 7.More Decorators
-│   │   │       │               │   └── recipes
-│   │   │       │               ├── Appendices
-│   │   │       │               ├── Leftovers
-│   │   │       │               │   ├── 6.Sequence
-│   │   │       │               │   ├── Advanced Metaobjects
-│   │   │       │               │   ├── Collections
-│   │   │       │               │   │   └── Recipes
-│   │   │       │               │   ├── Sequence
-│   │   │       │               │   └── recipes
-│   │   │       │               ├── Prefaces
-│   │   │       │               └── Sample
-│   │   │       ├── server
-│   │   │       │   └── views
-│   │   │       └── your-code
-│   │   │           ├── icons
-│   │   │           └── style
-│   │   ├── misc
-│   │   │   ├── past-soln
-│   │   │   └── resources
-│   │   └── official
-│   │       └── ajax-project-solution
-│   │           └── ajax-project-solution
-│   │               └── public
+│   │   ├── directory-browsed
+│   │   │   └── javascript-allonge-six
+│   │   │       └── manuscript
+│   │   │           ├── code
+│   │   │           ├── images
+│   │   │           └── markdown
+│   │   │               ├── 0.Functions
+│   │   │               │   └── recipes
+│   │   │               ├── 1.ComposingData
+│   │   │               │   └── recipes
+│   │   │               ├── 2.Objects and State
+│   │   │               │   └── recipes
+│   │   │               ├── 3.Collections
+│   │   │               ├── 4.Metaobjects
+│   │   │               ├── 5.Instances and Classes
+│   │   │               │   └── recipes
+│   │   │               ├── 6.Class Mixins
+│   │   │               ├── 7.More Decorators
+│   │   │               │   └── recipes
+│   │   │               ├── Appendices
+│   │   │               ├── Leftovers
+│   │   │               │   ├── 6.Sequence
+│   │   │               │   ├── Advanced Metaobjects
+│   │   │               │   ├── Collections
+│   │   │               │   │   └── Recipes
+│   │   │               │   ├── Sequence
+│   │   │               │   └── recipes
+│   │   │               ├── Prefaces
+│   │   │               └── Sample
+│   │   ├── server
+│   │   │   └── views
+│   │   └── your-code
+│   │       ├── icons
+│   │       └── style
 │   └── d3
 │       ├── first-attempt
-│       │   └── responsive-design-whack-a-mole-master
+│       │   ├── responsive-design-aa-times
+│       │   │   ├── images
+│       │   │   ├── scripts
+│       │   │   ├── specifications
+│       │   │   │   ├── screenshots
+│       │   │   │   └── text
+│       │   │   └── stylesheets
+│       │   │       └── components
+│       │   └── responsive-design-whack-a-mole
 │       ├── misc
 │       │   ├── css-grid-nytimes
 │       │   │   └── css-grid-nytimes
@@ -698,164 +413,27 @@
 │               └── whack-a-mole
 ├── resources
 │   ├── D1
-│   │   ├── external
 │   │   ├── mds
-│   │   ├── official
-│   │   ├── past
-│   │   └── student-made
+│   │   └── official
 │   ├── D2
-│   │   ├── first-attempt
-│   │   ├── mds
-│   │   │   └── images
-│   │   ├── misc
-│   │   ├── official
-│   │   ├── past-soln
-│   │   └── resources
+│   │   └── mds
+│   │       └── images
 │   ├── D4
-│   │   ├── first-attempt
-│   │   ├── mds
-│   │   │   └── images
-│   │   ├── misc
-│   │   ├── official
-│   │   ├── past-soln
-│   │   └── resources
+│   │   └── mds
+│   │       └── images
 │   ├── D5
-│   │   ├── first-attempt
-│   │   ├── mds
-│   │   │   └── images
-│   │   ├── misc
-│   │   ├── official
-│   │   ├── past-soln
-│   │   └── resources
+│   │   └── mds
+│   │       └── images
 │   ├── d3
-│   │   ├── first-attempt
-│   │   ├── mds
-│   │   │   └── images
-│   │   ├── misc
-│   │   ├── official
-│   │   ├── past-soln
-│   │   └── resources
+│   │   └── mds
+│   │       └── images
 │   ├── documentation
-│   ├── misc
-│   │   ├── D2
-│   │   ├── D4
-│   │   ├── D5
-│   │   ├── Documentation
-│   │   ├── cheat-sheets
-│   │   ├── d3
-│   │   ├── past cohort
-│   │   ├── personal projects
-│   │   └── reading
-│   └── unsorted
-│       ├── days
-│       │   ├── friday
-│       │   │   ├── Aug-2020-official
-│       │   │   │   ├── Eod
-│       │   │   │   │   └── Learning-Objectives
-│       │   │   │   ├── Lecture
-│       │   │   │   └── Other
-│       │   │   ├── Misc-Unsorted
-│       │   │   ├── My-Notes
-│       │   │   │   ├── Documentation
-│       │   │   │   ├── External-Resources
-│       │   │   │   └── Lecture
-│       │   │   ├── Past-Cohort
-│       │   │   │   ├── Misc-Unsorted
-│       │   │   │   ├── Project-Solutions
-│       │   │   │   ├── Redings
-│       │   │   │   └── Useful
-│       │   │   └── Projects
-│       │   │       ├── Attempted
-│       │   │       ├── Official-or-other-solutions
-│       │   │       └── Zipped-folders
-│       │   ├── monday
-│       │   │   ├── Aug-2020-official
-│       │   │   │   ├── Eod
-│       │   │   │   │   └── Learning-Objectives
-│       │   │   │   ├── Lecture
-│       │   │   │   └── Other
-│       │   │   ├── Misc-Unsorted
-│       │   │   ├── My-Notes
-│       │   │   │   ├── Documentation
-│       │   │   │   ├── External-Resources
-│       │   │   │   └── Lecture
-│       │   │   ├── Past-Cohort
-│       │   │   │   ├── Misc-Unsorted
-│       │   │   │   ├── Project-Solutions
-│       │   │   │   ├── Redings
-│       │   │   │   └── Useful
-│       │   │   └── Projects
-│       │   │       ├── Attempted
-│       │   │       ├── Official-or-other-solutions
-│       │   │       └── Zipped-folders
-│       │   ├── thursday
-│       │   │   ├── Aug-2020-official
-│       │   │   │   ├── Eod
-│       │   │   │   │   └── Learning-Objectives
-│       │   │   │   ├── Lecture
-│       │   │   │   └── Other
-│       │   │   ├── Misc-Unsorted
-│       │   │   ├── My-Notes
-│       │   │   │   ├── Documentation
-│       │   │   │   ├── External-Resources
-│       │   │   │   └── Lecture
-│       │   │   ├── Past-Cohort
-│       │   │   │   ├── Misc-Unsorted
-│       │   │   │   ├── Project-Solutions
-│       │   │   │   ├── Redings
-│       │   │   │   └── Useful
-│       │   │   │       └── W09D4-LOs
-│       │   │   └── Projects
-│       │   │       ├── Attempted
-│       │   │       ├── Official-or-other-solutions
-│       │   │       │   └── W09D4-solutions
-│       │   │       └── Zipped-folders
-│       │   ├── tuesday
-│       │   │   ├── Aug-2020-official
-│       │   │   │   ├── Eod
-│       │   │   │   │   └── Learning-Objectives
-│       │   │   │   ├── Lecture
-│       │   │   │   ├── Other
-│       │   │   │   └── W09D2-LOs
-│       │   │   │       └── W09D2-LOs
-│       │   │   ├── Misc-Unsorted
-│       │   │   ├── My-Notes
-│       │   │   │   ├── Documentation
-│       │   │   │   ├── External-Resources
-│       │   │   │   └── Lecture
-│       │   │   ├── Past-Cohort
-│       │   │   │   ├── Misc-Unsorted
-│       │   │   │   ├── Project-Solutions
-│       │   │   │   ├── Redings
-│       │   │   │   └── Useful
-│       │   │   └── Projects
-│       │   │       ├── Attempted
-│       │   │       ├── Official-or-other-solutions
-│       │   │       └── Zipped-folders
-│       │   └── wednesday
-│       │       ├── Aug-2020-official
-│       │       │   ├── Eod
-│       │       │   │   └── Learning-Objectives
-│       │       │   ├── Lecture
-│       │       │   └── Other
-│       │       ├── Misc-Unsorted
-│       │       ├── My-Notes
-│       │       │   ├── Documentation
-│       │       │   ├── External-Resources
-│       │       │   │   └── W09D3-LOs
-│       │       │   └── Lecture
-│       │       ├── Past-Cohort
-│       │       │   ├── Misc-Unsorted
-│       │       │   ├── Project-Solutions
-│       │       │   ├── Redings
-│       │       │   └── Useful
-│       │       └── Projects
-│       │           ├── Attempted
-│       │           ├── Official-or-other-solutions
-│       │           └── Zipped-folders
-│       ├── responsive-design-whack-a-mole-master
-│       │   └── responsive-design-whack-a-mole-master
-│       └── test-prep
+│   └── misc
+│       ├── D2
+│       ├── D4
+│       ├── D5
+│       ├── cheat-sheets
+│       └── d3
 └── test-prep
     ├── Moc-Tests
     │   ├── css_practice_assessment
@@ -864,6 +442,11 @@
     │       ├── solution
     │       └── starter
     ├── Student-Made-possibly-Imperfect
+    │   ├── quizlet
+    │   ├── w-9-re-filled-in
+    │   └── week-9-quiz
+    │       ├── css
+    │       └── wk9-images
     ├── Study-Guides
     │   ├── W09-LOs
     │   └── W9
@@ -873,12 +456,35 @@
     │           │   └── test
     │           └── css-starter-practice
     ├── materials
+    │   ├── cheat-sheets
     │   └── unsorted
-    ├── practice
+    ├── projects
+    │   ├── d1
+    │   │   ├── css-modernize-craigslist-starter
+    │   │   └── instructions-resources
+    │   ├── d2
+    │   │   ├── grid-project
+    │   │   └── trello
+    │   ├── d3
+    │   │   ├── aa-times
+    │   │   │   ├── images
+    │   │   │   ├── scripts
+    │   │   │   ├── specifications
+    │   │   │   │   ├── screenshots
+    │   │   │   │   └── text
+    │   │   │   └── stylesheets
+    │   │   │       └── components
+    │   │   └── whack-a-mole
+    │   ├── d4
+    │   │   ├── catstagram-async-await
+    │   │   │   └── public
+    │   │   └── catstagram-then-catch
+    │   │       └── public
+    │   └── d5
     └── weeks-LOs
         └── W09-LOs
 
-877 directories
+483 directories
 ```
 **
 
