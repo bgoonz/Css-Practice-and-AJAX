@@ -1,0 +1,66 @@
+body {
+    background-color: #efefef;
+}
+/*
+The HTML <fieldset> element is used to group several controls as well as labels (<label>) within a web form.
+*/
+fieldset {
+    background-color: white;
+}
+.blue-box {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    grid-area: blue;
+}
+.orange-box {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    grid-area: orange;
+    /* top: -40px; */
+}
+/* .outer-layer-2 {
+    /* <element class="outer-layer-2"> */
+/*display: flex;
+    flex-direction: column-reverse;
+} */
+.outer-layer-2 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "orange"
+        "blue";
+    /* position: relative; */
+}
+.blue-box,
+.orange-box {
+    /* position: absolute; */
+}
+.outer-layer-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.outer-layer-4 p + p {
+    color: orange;
+}
+
+.inner-layer-5 {
+    grid-column: 2 / span 4;
+}
+
+.outer-layer-6 {
+    box-shadow: 0 0 4px rgba(0, 0, 225, 0.6);
+}
+
+/* Problem 7 */
+/* .outer-layer-7 {
+    overflow-y:scroll;
+} */
+
+/* Problem 8 */
+.uppercase.bold {
+    font-family: "Courier New";
+}
