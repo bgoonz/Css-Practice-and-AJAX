@@ -1,495 +1,712 @@
 ```
-╗ ~ week-9 : (master) tree
 .
-├── README.md
 ├── notes
 │   ├── D1
-│   │   ├── sept-official
-│   │   │   ├── bod
-│   │   │   │   ├── getting-Css-into-your-html.md
-│   │   │   │   └── getting-css.html
-│   │   │   ├── eod
-│   │   │   ├── lo-s
-│   │   │   │   └── W09D1-LOs
-│   │   │   │       └── W09D1-LOs
-│   │   │   │           ├── W09D1-LOs-empty.md
-│   │   │   │           ├── W09D1-LOs-explained.md
-│   │   │   │           └── pseudo-elements.png
-│   │   │   ├── misc
-│   │   │   │   ├── Week9D1EOD.pdf
-│   │   │   │   └── quizlet networks.pdf
-│   │   │   └── my
-│   │   └── w09-d0_learning-objectives.md
-│   ├── D2
 │   │   ├── bod
+│   │   │   ├── W09D1-morning-lecture
+│   │   │   ├── attributes-and-selectors
+│   │   │   └── readings
+│   │   │       ├── 2-Properties-imports
+│   │   │       └── readings
+│   │   │           └── 1
+│   │   │               └── styles
 │   │   ├── eod
 │   │   ├── lo-s
-│   │   │   ├── app.js
-│   │   │   ├── controller.rb
-│   │   │   ├── jquery.js
-│   │   │   ├── package.json
-│   │   │   └── public
-│   │   │       ├── index.html
-│   │   │       └── index.js
+│   │   │   └── learning-objectives
 │   │   ├── misc
+│   │   │   └── styles
+│   │   └── my
+│   ├── D2
+│   │   ├── bod
+│   │   │   ├── lecture
+│   │   │   └── readings
+│   │   ├── eod
+│   │   ├── examples
 │   │   │   ├── CSS_Positioning
 │   │   │   │   ├── CSS_Positioning
-│   │   │   │   │   ├── ch15b_css-positioning.html
 │   │   │   │   │   └── media
-│   │   │   │   │       ├── image_1.png
-│   │   │   │   │       ├── image_2.png
-│   │   │   │   │       └── image_3.png
-│   │   │   │   ├── ch15b_css-positioning.html
 │   │   │   │   └── media
-│   │   │   │       ├── image_1.png
-│   │   │   │       ├── image_2.png
-│   │   │   │       └── image_3.png
+│   │   │   ├── example-project
 │   │   │   └── flex
 │   │   │       └── flex
-│   │   │           ├── flex.css
-│   │   │           └── flex.html
-│   │   ├── my
-│   │   └── w09-d2_basic-css.md
+│   │   ├── lo-s
+│   │   │   └── public
+│   │   └── my
 │   ├── D4
 │   │   ├── bod
 │   │   │   └── fruit-basket-demo
-│   │   │       ├── demo.css
-│   │   │       ├── demo.html
-│   │   │       └── demo.js
 │   │   ├── eod
 │   │   ├── lo-s
 │   │   ├── misc
-│   │   ├── my
-│   │   └── w09-d4_all-the-layouts.md
+│   │   │   └── Interactivity-CSS
+│   │   └── my
 │   ├── D5
 │   │   ├── bod
 │   │   ├── eod
 │   │   ├── lo-s
 │   │   ├── misc
-│   │   ├── my
-│   │   └── w09-d5_interactivity,-maintainability-and-aa-times.md
+│   │   └── my
 │   └── d3
 │       ├── bod
 │       │   └── w3d3
-│       │       ├── demo.css
-│       │       ├── demo.html
-│       │       ├── demo1.css
-│       │       ├── demo2.css
-│       │       ├── demo3.css
-│       │       ├── demo4.css
-│       │       ├── demo5.css
-│       │       └── global.css
 │       ├── eod
 │       │   └── w3d3post-lecture
 │       │       └── w3d3post-lecture
-│       │           ├── demo.css
-│       │           ├── demo.html
-│       │           ├── demo1.css
-│       │           ├── demo2.css
-│       │           ├── demo3.css
-│       │           ├── demo4.css
-│       │           ├── demo5.css
-│       │           └── global.css
 │       ├── lo-s
-│       │   └── W09D3-LOs
-│       │       ├── W09D3-LOs-empty.md
-│       │       ├── W09D3-LOs-explained.md
-│       │       └── mdn-positioning-demo
-│       │           ├── mdn-positioning.css
-│       │           └── mdn-positioning.html
+│       │   ├── W09D3-LOs
+│       │   │   └── mdn-positioning-demo
+│       │   └── learning_objectives
 │       ├── misc
-│       ├── my
-│       └── w09-d3_ajax.md
-├── old-org
-│   ├── Outline-Reference
-│   ├── days
-│   │   ├── friday
-│   │   │   ├── Aug-2020-official
-│   │   │   │   ├── Eod
-│   │   │   │   │   └── Learning-Objectives
-│   │   │   │   ├── Lecture
-│   │   │   │   └── Other
-│   │   │   ├── Misc-Unsorted
-│   │   │   ├── My-Notes
-│   │   │   │   ├── Documentation
-│   │   │   │   ├── External-Resources
-│   │   │   │   └── Lecture
-│   │   │   ├── Past-Cohort
-│   │   │   │   ├── Misc-Unsorted
-│   │   │   │   ├── Project-Solutions
-│   │   │   │   ├── Redings
-│   │   │   │   │   └── w09-d5_interactivity,-maintainability-and-aa-times.md
-│   │   │   │   └── Useful
-│   │   │   └── Projects
-│   │   │       ├── Attempted
-│   │   │       ├── Official-or-other-solutions
-│   │   │       └── Zipped-folders
-│   │   ├── monday
-│   │   │   ├── Aug-2020-official
-│   │   │   │   ├── Eod
-│   │   │   │   │   └── Learning-Objectives
-│   │   │   │   ├── Lecture
-│   │   │   │   └── Other
-│   │   │   ├── Misc-Unsorted
-│   │   │   ├── My-Notes
-│   │   │   │   ├── Documentation
-│   │   │   │   ├── External-Resources
-│   │   │   │   └── Lecture
-│   │   │   ├── Past-Cohort
-│   │   │   │   ├── Misc-Unsorted
-│   │   │   │   ├── Project-Solutions
-│   │   │   │   ├── Redings
-│   │   │   │   └── Useful
-│   │   │   └── Projects
-│   │   │       ├── Attempted
-│   │   │       ├── Official-or-other-solutions
-│   │   │       └── Zipped-folders
-│   │   ├── thursday
-│   │   │   ├── Aug-2020-official
-│   │   │   │   ├── Eod
-│   │   │   │   │   └── Learning-Objectives
-│   │   │   │   ├── Lecture
-│   │   │   │   └── Other
-│   │   │   ├── Misc-Unsorted
-│   │   │   ├── My-Notes
-│   │   │   │   ├── Documentation
-│   │   │   │   ├── External-Resources
-│   │   │   │   └── Lecture
-│   │   │   ├── Past-Cohort
-│   │   │   │   ├── Misc-Unsorted
-│   │   │   │   ├── Project-Solutions
-│   │   │   │   ├── Redings
-│   │   │   │   │   └── w09-d4_all-the-layouts.md
-│   │   │   │   └── Useful
-│   │   │   │       └── W09D4-LOs
-│   │   │   │           ├── W09D4-LOs-empty.md
-│   │   │   │           └── W09D4-LOs-explained.md
-│   │   │   └── Projects
-│   │   │       ├── Attempted
-│   │   │       ├── Official-or-other-solutions
-│   │   │       │   └── W09D4-solutions
-│   │   │       └── Zipped-folders
-│   │   ├── tuesday
-│   │   │   ├── Aug-2020-official
-│   │   │   │   ├── Eod
-│   │   │   │   │   └── Learning-Objectives
-│   │   │   │   ├── Lecture
-│   │   │   │   ├── Other
-│   │   │   │   ├── W09D2-LOs
-│   │   │   │   │   └── W09D2-LOs
-│   │   │   │   │       ├── W09D2-LOs-empty.md
-│   │   │   │   │       ├── W09D2-LOs-explained.md
-│   │   │   │   │       └── ajax.svg
-│   │   │   │   └── W09D2-LOs.zip
-│   │   │   ├── Misc-Unsorted
-│   │   │   ├── My-Notes
-│   │   │   │   ├── Documentation
-│   │   │   │   ├── External-Resources
-│   │   │   │   └── Lecture
-│   │   │   ├── Past-Cohort
-│   │   │   │   ├── Misc-Unsorted
-│   │   │   │   ├── Project-Solutions
-│   │   │   │   ├── Redings
-│   │   │   │   │   └── w09-d2_basic-css.md
-│   │   │   │   └── Useful
-│   │   │   └── Projects
-│   │   │       ├── Attempted
-│   │   │       ├── Official-or-other-solutions
-│   │   │       └── Zipped-folders
-│   │   └── wednesday
-│   │       ├── Aug-2020-official
-│   │       │   ├── Eod
-│   │       │   │   └── Learning-Objectives
-│   │       │   ├── Lecture
-│   │       │   └── Other
-│   │       ├── Misc-Unsorted
-│   │       ├── My-Notes
-│   │       │   ├── Documentation
-│   │       │   ├── External-Resources
-│   │       │   │   ├── W09D3-LOs
-│   │       │   │   └── W09D3-LOs.zip
-│   │       │   └── Lecture
-│   │       ├── Past-Cohort
-│   │       │   ├── Misc-Unsorted
-│   │       │   ├── Project-Solutions
-│   │       │   ├── Redings
-│   │       │   │   └── w09-d3_ajax - Copy.md
-│   │       │   └── Useful
-│   │       └── Projects
-│   │           ├── Attempted
-│   │           ├── Official-or-other-solutions
-│   │           │   └── W09D3-solutions.zip
-│   │           └── Zipped-folders
-│   ├── miscellaneous
-│   ├── past-unsorted
-│   └── test-prep
-│       ├── Moc-Tests
-│       │   └── practice
-│       │       ├── solution
-│       │       │   ├── README.md
-│       │       │   ├── test.html
-│       │       │   └── your-code.css
-│       │       └── starter
-│       │           ├── README.md
-│       │           └── test.html
-│       ├── Student-Made-possibly-Imperfect
-│       ├── Study-Guides
-│       └── weeks-LOs
+│       │   ├── css
+│       │   ├── images
+│       │   └── lecture
+│       └── my
 ├── outline
-│   └── week-9-outline.md
 ├── projects
 │   ├── D1
 │   │   ├── first-attempt
+│   │   │   ├── css-modernize-craigslist-starter
+│   │   │   └── instructions-resources
 │   │   ├── misc
 │   │   │   └── d1
 │   │   │       └── css-modernize-craigslist-starter
-│   │   │           ├── attributes-project.css
-│   │   │           └── attributes-project.html
 │   │   └── official
+│   │       └── Modernize-Craigslist
+│   │           ├── css-modernize-craigslist-starter
+│   │           └── instructions-resources
 │   ├── D2
-│   │   ├── first-attempt
-│   │   ├── misc
-│   │   │   ├── past-soln
-│   │   │   └── resources
-│   │   └── official
-│   ├── D4
-│   │   ├── first-attempt
-│   │   ├── misc
-│   │   │   └── d4
-│   │   │       ├── responsive-design-aa-times
-│   │   │       │   ├── images
-│   │   │       │   │   ├── AA_Times_Logo.png
-│   │   │       │   │   ├── aa-times.png
-│   │   │       │   │   ├── cat.png
-│   │   │       │   │   ├── dog.png
-│   │   │       │   │   ├── new_office.jpg
-│   │   │       │   │   ├── plug.png
-│   │   │       │   │   └── sun-icon.png
-│   │   │       │   ├── index.html
-│   │   │       │   ├── scripts
-│   │   │       │   │   └── appacad.js
-│   │   │       │   ├── specifications
-│   │   │       │   │   ├── screenshots
-│   │   │       │   │   │   ├── 1000px-small-mobile-aa-times.png
-│   │   │       │   │   │   ├── 1020px-medium-aa-times.png
-│   │   │       │   │   │   ├── 1230px-large-aa-times.png
-│   │   │       │   │   │   ├── gear-drop.gif
-│   │   │       │   │   │   ├── interests-bar-marked-up.png
-│   │   │       │   │   │   ├── interests-bar-subclasses-shown.png
-│   │   │       │   │   │   ├── interests-bar.png
-│   │   │       │   │   │   ├── main-content-and-opinions.png
-│   │   │       │   │   │   ├── masthead-marked-with-rows-and-columns.png
-│   │   │       │   │   │   ├── masthead-marked-with-rows.png
-│   │   │       │   │   │   ├── masthead-with-sections.png
-│   │   │       │   │   │   ├── masthead.png
-│   │   │       │   │   │   ├── search.gif
-│   │   │       │   │   │   ├── sidebar-mock.png
-│   │   │       │   │   │   └── sidebar.gif
-│   │   │       │   │   └── text
-│   │   │       │   │       ├── 01_masthead.txt
-│   │   │       │   │       ├── 02_sections_nav.txt
-│   │   │       │   │       ├── 03_interest_links.txt
-│   │   │       │   │       ├── 04_gear_drop_down.txt
-│   │   │       │   │       ├── 05_main_content.txt
-│   │   │       │   │       ├── 06_sidebar_submenus.txt
-│   │   │       │   │       └── styles.md
-│   │   │       │   └── stylesheets
-│   │   │       │       ├── components
-│   │   │       │       │   ├── gear-dropdown.css
-│   │   │       │       │   ├── interest-links.css
-│   │   │       │       │   ├── main-content.css
-│   │   │       │       │   ├── main-nav.css
-│   │   │       │       │   ├── masthead.css
-│   │   │       │       │   ├── search-modal.css
-│   │   │       │       │   └── sections-sidebar.css
-│   │   │       │       ├── global.css
-│   │   │       │       ├── main-styles.css
-│   │   │       │       └── reset.css
-│   │   │       └── responsive-design-whack-a-mole
-│   │   │           ├── mole-head.png
-│   │   │           ├── mole-hill.png
-│   │   │           ├── mole.css
-│   │   │           ├── mole.html
-│   │   │           └── mole.js
-│   │   └── official
-│   │       ├── aa-times-solution
-│   │       │   ├── images
-│   │       │   │   ├── AA_Times_Logo.png
-│   │       │   │   ├── aa-times.png
-│   │       │   │   ├── cat.png
-│   │       │   │   ├── dog.png
-│   │       │   │   ├── new_office.jpg
-│   │       │   │   ├── plug.png
-│   │       │   │   └── sun-icon.png
-│   │       │   ├── index.html
-│   │       │   ├── scripts
-│   │       │   │   └── event-handling.js
-│   │       │   └── stylesheets
-│   │       │       ├── components
-│   │       │       │   ├── gear-dropdown.css
-│   │       │       │   ├── interest-links.css
-│   │       │       │   ├── main-content.css
-│   │       │       │   ├── main-nav.css
-│   │       │       │   ├── masthead.css
-│   │       │       │   ├── search-modal.css
-│   │       │       │   └── sections-sidebar.css
-│   │       │       ├── global.css
-│   │       │       ├── main-styles.css
-│   │       │       └── reset.css
-│   │       └── whack-a-mole-project-solution
-│   │           ├── mole-head.png
-│   │           ├── mole-hill.png
-│   │           ├── mole.css
-│   │           ├── mole.html
-│   │           └── mole.js
-│   ├── D5
 │   │   ├── first-attempt
 │   │   ├── misc
 │   │   │   ├── past-soln
 │   │   │   └── resources
 │   │   └── official
 │   │       └── ajax-project-solution
+│   │           └── public
+│   ├── D4
+│   │   ├── first-attempt
+│   │   │   ├── documentation
+│   │   │   ├── instructions
+│   │   │   ├── node_modules
+│   │   │   │   ├── @sindresorhus
+│   │   │   │   │   └── is
+│   │   │   │   │       └── dist
+│   │   │   │   ├── @szmarczak
+│   │   │   │   │   └── http-timer
+│   │   │   │   │       └── source
+│   │   │   │   ├── abbrev
+│   │   │   │   ├── accepts
+│   │   │   │   ├── ansi-align
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       └── string-width
+│   │   │   │   ├── ansi-regex
+│   │   │   │   ├── ansi-styles
+│   │   │   │   ├── anymatch
+│   │   │   │   ├── array-flatten
+│   │   │   │   ├── axios
+│   │   │   │   │   ├── dist
+│   │   │   │   │   └── lib
+│   │   │   │   │       ├── adapters
+│   │   │   │   │       ├── cancel
+│   │   │   │   │       ├── core
+│   │   │   │   │       └── helpers
+│   │   │   │   ├── balanced-match
+│   │   │   │   ├── binary-extensions
+│   │   │   │   ├── body-parser
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── types
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── debug
+│   │   │   │   │       │   └── src
+│   │   │   │   │       └── ms
+│   │   │   │   ├── boxen
+│   │   │   │   ├── brace-expansion
+│   │   │   │   ├── braces
+│   │   │   │   │   └── lib
+│   │   │   │   ├── bytes
+│   │   │   │   ├── cacheable-request
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   ├── get-stream
+│   │   │   │   │   │   └── lowercase-keys
+│   │   │   │   │   └── src
+│   │   │   │   ├── camelcase
+│   │   │   │   ├── chalk
+│   │   │   │   │   ├── node_modules
+│   │   │   │   │   │   ├── has-flag
+│   │   │   │   │   │   └── supports-color
+│   │   │   │   │   └── source
+│   │   │   │   ├── chokidar
+│   │   │   │   │   ├── lib
+│   │   │   │   │   └── types
+│   │   │   │   ├── ci-info
+│   │   │   │   ├── cli-boxes
+│   │   │   │   ├── clone-response
+│   │   │   │   │   └── src
+│   │   │   │   ├── color-convert
+│   │   │   │   ├── color-name
+│   │   │   │   ├── concat-map
+│   │   │   │   │   ├── example
+│   │   │   │   │   └── test
+│   │   │   │   ├── configstore
+│   │   │   │   ├── content-disposition
+│   │   │   │   ├── content-type
+│   │   │   │   ├── cookie
+│   │   │   │   ├── cookie-signature
+│   │   │   │   ├── crypto-random-string
+│   │   │   │   ├── debug
+│   │   │   │   │   ├── dist
+│   │   │   │   │   └── src
+│   │   │   │   ├── decompress-response
+│   │   │   │   ├── deep-extend
+│   │   │   │   │   └── lib
+│   │   │   │   ├── defer-to-connect
+│   │   │   │   │   └── dist
+│   │   │   │   ├── depd
+│   │   │   │   │   └── lib
+│   │   │   │   │       ├── browser
+│   │   │   │   │       └── compat
+│   │   │   │   ├── destroy
+│   │   │   │   ├── dot-prop
+│   │   │   │   ├── duplexer3
+│   │   │   │   ├── ee-first
+│   │   │   │   ├── emoji-regex
+│   │   │   │   │   └── es2015
+│   │   │   │   ├── encodeurl
+│   │   │   │   ├── end-of-stream
+│   │   │   │   ├── escape-goat
+│   │   │   │   ├── escape-html
+│   │   │   │   ├── etag
+│   │   │   │   ├── express
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   ├── middleware
+│   │   │   │   │   │   └── router
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── debug
+│   │   │   │   │       │   └── src
+│   │   │   │   │       └── ms
+│   │   │   │   ├── fill-range
+│   │   │   │   ├── finalhandler
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── debug
+│   │   │   │   │       │   └── src
+│   │   │   │   │       └── ms
+│   │   │   │   ├── follow-redirects
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── debug
+│   │   │   │   │       │   └── src
+│   │   │   │   │       └── ms
+│   │   │   │   ├── forwarded
+│   │   │   │   ├── fresh
+│   │   │   │   ├── fsevents
+│   │   │   │   ├── get-stream
+│   │   │   │   ├── glob-parent
+│   │   │   │   ├── global-dirs
+│   │   │   │   ├── got
+│   │   │   │   │   └── source
+│   │   │   │   │       └── utils
+│   │   │   │   ├── graceful-fs
+│   │   │   │   ├── has-flag
+│   │   │   │   ├── has-yarn
+│   │   │   │   ├── http-cache-semantics
+│   │   │   │   ├── http-errors
+│   │   │   │   ├── iconv-lite
+│   │   │   │   │   ├── encodings
+│   │   │   │   │   │   └── tables
+│   │   │   │   │   └── lib
+│   │   │   │   ├── ignore-by-default
+│   │   │   │   ├── import-lazy
+│   │   │   │   ├── imurmurhash
+│   │   │   │   ├── inherits
+│   │   │   │   ├── ini
+│   │   │   │   ├── ipaddr.js
+│   │   │   │   │   └── lib
+│   │   │   │   ├── is-binary-path
+│   │   │   │   ├── is-ci
+│   │   │   │   ├── is-extglob
+│   │   │   │   ├── is-fullwidth-code-point
+│   │   │   │   ├── is-glob
+│   │   │   │   ├── is-installed-globally
+│   │   │   │   ├── is-npm
+│   │   │   │   ├── is-number
+│   │   │   │   ├── is-obj
+│   │   │   │   ├── is-path-inside
+│   │   │   │   ├── is-typedarray
+│   │   │   │   ├── is-yarn-global
+│   │   │   │   ├── json-buffer
+│   │   │   │   │   └── test
+│   │   │   │   ├── keyv
+│   │   │   │   │   └── src
+│   │   │   │   ├── latest-version
+│   │   │   │   ├── lowercase-keys
+│   │   │   │   ├── make-dir
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       └── semver
+│   │   │   │   │           └── bin
+│   │   │   │   ├── media-typer
+│   │   │   │   ├── merge-descriptors
+│   │   │   │   ├── methods
+│   │   │   │   ├── mime
+│   │   │   │   │   └── src
+│   │   │   │   ├── mime-db
+│   │   │   │   ├── mime-types
+│   │   │   │   ├── mimic-response
+│   │   │   │   ├── minimatch
+│   │   │   │   ├── minimist
+│   │   │   │   │   ├── example
+│   │   │   │   │   └── test
+│   │   │   │   ├── ms
+│   │   │   │   ├── negotiator
+│   │   │   │   │   └── lib
+│   │   │   │   ├── nodemon
+│   │   │   │   │   ├── bin
+│   │   │   │   │   ├── doc
+│   │   │   │   │   │   └── cli
+│   │   │   │   │   └── lib
+│   │   │   │   │       ├── cli
+│   │   │   │   │       ├── config
+│   │   │   │   │       ├── help
+│   │   │   │   │       ├── monitor
+│   │   │   │   │       ├── rules
+│   │   │   │   │       └── utils
+│   │   │   │   ├── nopt
+│   │   │   │   │   ├── bin
+│   │   │   │   │   ├── examples
+│   │   │   │   │   └── lib
+│   │   │   │   ├── normalize-path
+│   │   │   │   ├── normalize-url
+│   │   │   │   ├── on-finished
+│   │   │   │   ├── once
+│   │   │   │   ├── p-cancelable
+│   │   │   │   ├── package-json
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       └── semver
+│   │   │   │   │           └── bin
+│   │   │   │   ├── parseurl
+│   │   │   │   ├── path-to-regexp
+│   │   │   │   ├── picomatch
+│   │   │   │   │   └── lib
+│   │   │   │   ├── prepend-http
+│   │   │   │   ├── proxy-addr
+│   │   │   │   ├── pstree.remy
+│   │   │   │   │   ├── lib
+│   │   │   │   │   └── tests
+│   │   │   │   │       └── fixtures
+│   │   │   │   ├── pump
+│   │   │   │   ├── pupa
+│   │   │   │   ├── qs
+│   │   │   │   │   ├── dist
+│   │   │   │   │   ├── lib
+│   │   │   │   │   └── test
+│   │   │   │   ├── range-parser
+│   │   │   │   ├── raw-body
+│   │   │   │   ├── rc
+│   │   │   │   │   ├── lib
+│   │   │   │   │   └── test
+│   │   │   │   ├── readdirp
+│   │   │   │   ├── registry-auth-token
+│   │   │   │   │   └── test
+│   │   │   │   ├── registry-url
+│   │   │   │   ├── responselike
+│   │   │   │   │   └── src
+│   │   │   │   ├── safe-buffer
+│   │   │   │   ├── safer-buffer
+│   │   │   │   ├── semver
+│   │   │   │   │   └── bin
+│   │   │   │   ├── semver-diff
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       └── semver
+│   │   │   │   │           └── bin
+│   │   │   │   ├── send
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── debug
+│   │   │   │   │       │   ├── node_modules
+│   │   │   │   │       │   │   └── ms
+│   │   │   │   │       │   └── src
+│   │   │   │   │       └── ms
+│   │   │   │   ├── serve-static
+│   │   │   │   ├── setprototypeof
+│   │   │   │   │   └── test
+│   │   │   │   ├── signal-exit
+│   │   │   │   ├── statuses
+│   │   │   │   ├── string-width
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── ansi-regex
+│   │   │   │   │       ├── emoji-regex
+│   │   │   │   │       │   └── es2015
+│   │   │   │   │       ├── is-fullwidth-code-point
+│   │   │   │   │       └── strip-ansi
+│   │   │   │   ├── strip-ansi
+│   │   │   │   ├── strip-json-comments
+│   │   │   │   ├── supports-color
+│   │   │   │   ├── term-size
+│   │   │   │   │   └── vendor
+│   │   │   │   │       ├── macos
+│   │   │   │   │       └── windows
+│   │   │   │   ├── to-readable-stream
+│   │   │   │   ├── to-regex-range
+│   │   │   │   ├── toidentifier
+│   │   │   │   ├── touch
+│   │   │   │   │   └── bin
+│   │   │   │   ├── type-fest
+│   │   │   │   │   └── source
+│   │   │   │   ├── type-is
+│   │   │   │   ├── typedarray-to-buffer
+│   │   │   │   │   └── test
+│   │   │   │   ├── undefsafe
+│   │   │   │   │   ├── lib
+│   │   │   │   │   └── node_modules
+│   │   │   │   │       ├── debug
+│   │   │   │   │       │   └── src
+│   │   │   │   │       └── ms
+│   │   │   │   ├── unique-string
+│   │   │   │   ├── unpipe
+│   │   │   │   ├── update-notifier
+│   │   │   │   ├── url-parse-lax
+│   │   │   │   ├── utils-merge
+│   │   │   │   ├── vary
+│   │   │   │   ├── widest-line
+│   │   │   │   ├── wrappy
+│   │   │   │   ├── write-file-atomic
+│   │   │   │   └── xdg-basedir
+│   │   │   └── public
+│   │   ├── misc
+│   │   │   ├── ajax-prep
+│   │   │   │   ├── instructions-and-notes
+│   │   │   │   └── public
+│   │   │   └── d4
+│   │   │       ├── responsive-design-aa-times
+│   │   │       │   ├── images
+│   │   │       │   ├── scripts
+│   │   │       │   ├── specifications
+│   │   │       │   │   ├── screenshots
+│   │   │       │   │   └── text
+│   │   │       │   └── stylesheets
+│   │   │       │       └── components
+│   │   │       └── responsive-design-whack-a-mole
+│   │   └── official
+│   │       ├── catstagram
+│   │       │   └── ajax-project-solution
+│   │       │       ├── node_modules
+│   │       │       │   ├── abbrev
+│   │       │       │   ├── accepts
+│   │       │       │   ├── ansi-align
+│   │       │       │   ├── ansi-regex
+│   │       │       │   ├── ansi-styles
+│   │       │       │   ├── anymatch
+│   │       │       │   ├── array-flatten
+│   │       │       │   ├── balanced-match
+│   │       │       │   ├── binary-extensions
+│   │       │       │   ├── body-parser
+│   │       │       │   │   └── lib
+│   │       │       │   │       └── types
+│   │       │       │   ├── boxen
+│   │       │       │   ├── brace-expansion
+│   │       │       │   ├── braces
+│   │       │       │   │   └── lib
+│   │       │       │   ├── bytes
+│   │       │       │   ├── camelcase
+│   │       │       │   ├── capture-stack-trace
+│   │       │       │   ├── chalk
+│   │       │       │   │   └── types
+│   │       │       │   ├── chokidar
+│   │       │       │   │   ├── lib
+│   │       │       │   │   └── types
+│   │       │       │   ├── ci-info
+│   │       │       │   ├── cli-boxes
+│   │       │       │   ├── color-convert
+│   │       │       │   ├── color-name
+│   │       │       │   ├── concat-map
+│   │       │       │   │   ├── example
+│   │       │       │   │   └── test
+│   │       │       │   ├── configstore
+│   │       │       │   ├── content-disposition
+│   │       │       │   ├── content-type
+│   │       │       │   ├── cookie
+│   │       │       │   ├── cookie-signature
+│   │       │       │   ├── create-error-class
+│   │       │       │   ├── cross-spawn
+│   │       │       │   │   └── lib
+│   │       │       │   │       └── util
+│   │       │       │   ├── crypto-random-string
+│   │       │       │   ├── debug
+│   │       │       │   │   └── src
+│   │       │       │   ├── deep-extend
+│   │       │       │   │   └── lib
+│   │       │       │   ├── depd
+│   │       │       │   │   └── lib
+│   │       │       │   │       ├── browser
+│   │       │       │   │       └── compat
+│   │       │       │   ├── destroy
+│   │       │       │   ├── dot-prop
+│   │       │       │   ├── duplexer3
+│   │       │       │   ├── ee-first
+│   │       │       │   ├── encodeurl
+│   │       │       │   ├── escape-html
+│   │       │       │   ├── escape-string-regexp
+│   │       │       │   ├── etag
+│   │       │       │   ├── execa
+│   │       │       │   │   └── lib
+│   │       │       │   ├── express
+│   │       │       │   │   └── lib
+│   │       │       │   │       ├── middleware
+│   │       │       │   │       └── router
+│   │       │       │   ├── fill-range
+│   │       │       │   ├── finalhandler
+│   │       │       │   ├── forwarded
+│   │       │       │   ├── fresh
+│   │       │       │   ├── get-stream
+│   │       │       │   ├── glob-parent
+│   │       │       │   ├── global-dirs
+│   │       │       │   ├── got
+│   │       │       │   ├── graceful-fs
+│   │       │       │   ├── has-flag
+│   │       │       │   ├── http-errors
+│   │       │       │   ├── iconv-lite
+│   │       │       │   │   ├── encodings
+│   │       │       │   │   │   └── tables
+│   │       │       │   │   └── lib
+│   │       │       │   ├── ignore-by-default
+│   │       │       │   ├── import-lazy
+│   │       │       │   ├── imurmurhash
+│   │       │       │   ├── inherits
+│   │       │       │   ├── ini
+│   │       │       │   ├── ipaddr.js
+│   │       │       │   │   └── lib
+│   │       │       │   ├── is-binary-path
+│   │       │       │   ├── is-ci
+│   │       │       │   ├── is-extglob
+│   │       │       │   ├── is-fullwidth-code-point
+│   │       │       │   ├── is-glob
+│   │       │       │   ├── is-installed-globally
+│   │       │       │   ├── is-npm
+│   │       │       │   ├── is-number
+│   │       │       │   ├── is-obj
+│   │       │       │   ├── is-path-inside
+│   │       │       │   ├── is-redirect
+│   │       │       │   ├── is-retry-allowed
+│   │       │       │   ├── is-stream
+│   │       │       │   ├── isexe
+│   │       │       │   │   └── test
+│   │       │       │   ├── latest-version
+│   │       │       │   ├── lowercase-keys
+│   │       │       │   ├── lru-cache
+│   │       │       │   ├── make-dir
+│   │       │       │   ├── media-typer
+│   │       │       │   ├── merge-descriptors
+│   │       │       │   ├── methods
+│   │       │       │   ├── mime
+│   │       │       │   │   └── src
+│   │       │       │   ├── mime-db
+│   │       │       │   ├── mime-types
+│   │       │       │   ├── minimatch
+│   │       │       │   ├── minimist
+│   │       │       │   │   ├── example
+│   │       │       │   │   └── test
+│   │       │       │   ├── ms
+│   │       │       │   ├── negotiator
+│   │       │       │   │   └── lib
+│   │       │       │   ├── node-fetch
+│   │       │       │   │   └── lib
+│   │       │       │   ├── nodemon
+│   │       │       │   │   ├── bin
+│   │       │       │   │   ├── doc
+│   │       │       │   │   │   └── cli
+│   │       │       │   │   ├── lib
+│   │       │       │   │   │   ├── cli
+│   │       │       │   │   │   ├── config
+│   │       │       │   │   │   ├── help
+│   │       │       │   │   │   ├── monitor
+│   │       │       │   │   │   ├── rules
+│   │       │       │   │   │   └── utils
+│   │       │       │   │   └── node_modules
+│   │       │       │   │       ├── debug
+│   │       │       │   │       │   ├── dist
+│   │       │       │   │       │   └── src
+│   │       │       │   │       └── ms
+│   │       │       │   ├── nopt
+│   │       │       │   │   ├── bin
+│   │       │       │   │   ├── examples
+│   │       │       │   │   └── lib
+│   │       │       │   ├── normalize-path
+│   │       │       │   ├── npm-run-path
+│   │       │       │   ├── on-finished
+│   │       │       │   ├── p-finally
+│   │       │       │   ├── package-json
+│   │       │       │   ├── parseurl
+│   │       │       │   ├── path-is-inside
+│   │       │       │   │   └── lib
+│   │       │       │   ├── path-key
+│   │       │       │   ├── path-to-regexp
+│   │       │       │   ├── picomatch
+│   │       │       │   │   └── lib
+│   │       │       │   ├── pify
+│   │       │       │   ├── prepend-http
+│   │       │       │   ├── proxy-addr
+│   │       │       │   ├── pseudomap
+│   │       │       │   │   └── test
+│   │       │       │   ├── pstree.remy
+│   │       │       │   │   ├── lib
+│   │       │       │   │   └── tests
+│   │       │       │   │       └── fixtures
+│   │       │       │   ├── qs
+│   │       │       │   │   ├── dist
+│   │       │       │   │   ├── lib
+│   │       │       │   │   └── test
+│   │       │       │   ├── range-parser
+│   │       │       │   ├── raw-body
+│   │       │       │   ├── rc
+│   │       │       │   │   ├── lib
+│   │       │       │   │   └── test
+│   │       │       │   ├── readdirp
+│   │       │       │   ├── registry-auth-token
+│   │       │       │   │   └── test
+│   │       │       │   ├── registry-url
+│   │       │       │   ├── safe-buffer
+│   │       │       │   ├── safer-buffer
+│   │       │       │   ├── semver
+│   │       │       │   │   └── bin
+│   │       │       │   ├── semver-diff
+│   │       │       │   ├── send
+│   │       │       │   │   └── node_modules
+│   │       │       │   │       └── ms
+│   │       │       │   ├── serve-static
+│   │       │       │   ├── setprototypeof
+│   │       │       │   │   └── test
+│   │       │       │   ├── shebang-command
+│   │       │       │   ├── shebang-regex
+│   │       │       │   ├── signal-exit
+│   │       │       │   ├── statuses
+│   │       │       │   ├── string-width
+│   │       │       │   ├── strip-ansi
+│   │       │       │   ├── strip-eof
+│   │       │       │   ├── strip-json-comments
+│   │       │       │   ├── supports-color
+│   │       │       │   ├── term-size
+│   │       │       │   │   └── vendor
+│   │       │       │   │       ├── macos
+│   │       │       │   │       └── windows
+│   │       │       │   ├── timed-out
+│   │       │       │   ├── to-regex-range
+│   │       │       │   ├── toidentifier
+│   │       │       │   ├── touch
+│   │       │       │   │   └── bin
+│   │       │       │   ├── type-is
+│   │       │       │   ├── undefsafe
+│   │       │       │   │   └── lib
+│   │       │       │   ├── unique-string
+│   │       │       │   ├── unpipe
+│   │       │       │   ├── unzip-response
+│   │       │       │   ├── update-notifier
+│   │       │       │   ├── url-parse-lax
+│   │       │       │   ├── utils-merge
+│   │       │       │   ├── vary
+│   │       │       │   ├── which
+│   │       │       │   │   └── bin
+│   │       │       │   ├── widest-line
+│   │       │       │   ├── write-file-atomic
+│   │       │       │   ├── xdg-basedir
+│   │       │       │   └── yallist
+│   │       │       └── public
+│   │       └── server
+│   │           └── public
+│   ├── D5
+│   │   ├── first-attempt
+│   │   │   └── responsive-design-file-browser-starter-master
+│   │   │       ├── directory-browsed
+│   │   │       │   └── javascript-allonge-six
+│   │   │       │       └── manuscript
+│   │   │       │           ├── code
+│   │   │       │           ├── images
+│   │   │       │           └── markdown
+│   │   │       │               ├── 0.Functions
+│   │   │       │               │   └── recipes
+│   │   │       │               ├── 1.ComposingData
+│   │   │       │               │   └── recipes
+│   │   │       │               ├── 2.Objects and State
+│   │   │       │               │   └── recipes
+│   │   │       │               ├── 3.Collections
+│   │   │       │               ├── 4.Metaobjects
+│   │   │       │               ├── 5.Instances and Classes
+│   │   │       │               │   └── recipes
+│   │   │       │               ├── 6.Class Mixins
+│   │   │       │               ├── 7.More Decorators
+│   │   │       │               │   └── recipes
+│   │   │       │               ├── Appendices
+│   │   │       │               ├── Leftovers
+│   │   │       │               │   ├── 6.Sequence
+│   │   │       │               │   ├── Advanced Metaobjects
+│   │   │       │               │   ├── Collections
+│   │   │       │               │   │   └── Recipes
+│   │   │       │               │   ├── Sequence
+│   │   │       │               │   └── recipes
+│   │   │       │               ├── Prefaces
+│   │   │       │               └── Sample
+│   │   │       ├── server
+│   │   │       │   └── views
+│   │   │       └── your-code
+│   │   │           ├── icons
+│   │   │           └── style
+│   │   ├── misc
+│   │   │   ├── past-soln
+│   │   │   └── resources
+│   │   └── official
+│   │       └── ajax-project-solution
 │   │           └── ajax-project-solution
-│   │               ├── index.js
-│   │               ├── package-lock.json
-│   │               ├── package.json
 │   │               └── public
-│   │                   ├── events.js
-│   │                   ├── index.css
-│   │                   └── index.html
 │   └── d3
 │       ├── first-attempt
+│       │   └── responsive-design-whack-a-mole-master
 │       ├── misc
-│       │   └── d3
-│       │       └── css-grid-nytimes
-│       │           ├── css-grid-nytimes
-│       │           │   ├── grid-project.css
-│       │           │   ├── grid-project.html
-│       │           │   └── nyt-logo.svg
-│       │           ├── grid-project.css
-│       │           ├── grid-project.html
-│       │           └── nyt-logo.svg
+│       │   ├── css-grid-nytimes
+│       │   │   └── css-grid-nytimes
+│       │   ├── responsive-design-aa-times-master
+│       │   │   └── responsive-design-aa-times-master
+│       │   │       ├── images
+│       │   │       ├── scripts
+│       │   │       ├── specifications
+│       │   │       │   ├── screenshots
+│       │   │       │   └── text
+│       │   │       └── stylesheets
+│       │   │           └── components
+│       │   └── whack-a-mole-project-solution
 │       └── official
-│           └── W09D3-solutions
-│               ├── css-grid-project-solution
-│               │   ├── grid-project.css
-│               │   ├── grid-project.html
-│               │   └── nyt-logo.svg
-│               ├── flexbox-defense-solution
-│               │   └── Flexbox Defense
-│               ├── flexbox-froggy-solution
-│               │   ├── README.md
-│               │   └── css
-│               │       ├── exercise1.css
-│               │       ├── exercise10.css
-│               │       ├── exercise11.css
-│               │       ├── exercise12.css
-│               │       ├── exercise13.css
-│               │       ├── exercise14.css
-│               │       ├── exercise15.css
-│               │       ├── exercise16.css
-│               │       ├── exercise17.css
-│               │       ├── exercise18.css
-│               │       ├── exercise19.css
-│               │       ├── exercise2.css
-│               │       ├── exercise20.css
-│               │       ├── exercise21.css
-│               │       ├── exercise22.css
-│               │       ├── exercise23.css
-│               │       ├── exercise24.css
-│               │       ├── exercise3.css
-│               │       ├── exercise4.css
-│               │       ├── exercise5.css
-│               │       ├── exercise6.css
-│               │       ├── exercise7.css
-│               │       ├── exercise8.css
-│               │       └── exercise9.css
-│               ├── grid-garden-solution
-│               │   ├── README.md
-│               │   └── css
-│               │       ├── exercise1.css
-│               │       ├── exercise10.css
-│               │       ├── exercise11.css
-│               │       ├── exercise12.css
-│               │       ├── exercise13.css
-│               │       ├── exercise14.css
-│               │       ├── exercise15.css
-│               │       ├── exercise16.css
-│               │       ├── exercise17.css
-│               │       ├── exercise18.css
-│               │       ├── exercise19.css
-│               │       ├── exercise2.css
-│               │       ├── exercise20.css
-│               │       ├── exercise21.css
-│               │       ├── exercise22.css
-│               │       ├── exercise23.css
-│               │       ├── exercise24.css
-│               │       ├── exercise25.css
-│               │       ├── exercise26.css
-│               │       ├── exercise27.css
-│               │       ├── exercise28.css
-│               │       ├── exercise3.css
-│               │       ├── exercise4.css
-│               │       ├── exercise5.css
-│               │       ├── exercise6.css
-│               │       ├── exercise7.css
-│               │       ├── exercise8.css
-│               │       └── exercise9.css
-│               └── recreate-trello-flexbox-project-solution
-│                   ├── board-backgrounds
-│                   │   ├── board-1-background.jpg
-│                   │   ├── board-10-background.jpg
-│                   │   ├── board-2-background.jpg
-│                   │   ├── board-3-background.jpg
-│                   │   ├── board-4-background.jpg
-│                   │   ├── board-5-background.jpg
-│                   │   ├── board-6-background.jpg
-│                   │   ├── board-7-background.jpg
-│                   │   ├── board-8-background.jpg
-│                   │   └── board-9-background.jpg
-│                   ├── flexbox-project.css
-│                   ├── flexbox-project.html
-│                   └── trello-logo-white.png
+│           ├── Project Solutions
+│           │   ├── css-grid-project-solution
+│           │   └── flexbox-project-solution
+│           ├── W09D3-solutions
+│           │   ├── css-grid-project-solution
+│           │   ├── flexbox-defense-solution
+│           │   ├── flexbox-froggy-solution
+│           │   │   └── css
+│           │   ├── grid-garden-solution
+│           │   │   └── css
+│           │   └── recreate-trello-flexbox-project-solution
+│           │       └── board-backgrounds
+│           ├── aa-times-solution
+│           │   ├── images
+│           │   ├── scripts
+│           │   └── stylesheets
+│           │       └── components
+│           └── solutions
+│               ├── aa-times
+│               │   ├── images
+│               │   ├── scripts
+│               │   ├── specifications
+│               │   │   ├── screenshots
+│               │   │   └── text
+│               │   └── stylesheets
+│               │       └── components
+│               └── whack-a-mole
 ├── resources
 │   ├── D1
 │   │   ├── external
 │   │   ├── mds
-│   │   │   ├── d200_css-fundamentals-learning-objectives.md
-│   │   │   ├── d300_ajax-learning-objectives.md
-│   │   │   ├── d400a_media-query-learning-objectives.md
-│   │   │   ├── d400b_box-model-and-positioning-learning-objectives.md
-│   │   │   ├── d400c_flexible-box-model-learning-objectives.md
-│   │   │   ├── d400d_grid-layout-learning-objectives.md
-│   │   │   ├── d500a_interactivity-learning-objectives.md
-│   │   │   ├── d500b_css-maintainability-learning-objectives.md
-│   │   │   └── w09-d0_learning-objectives.md
 │   │   ├── official
 │   │   ├── past
 │   │   └── student-made
 │   ├── D2
 │   │   ├── first-attempt
 │   │   ├── mds
-│   │   │   ├── 00_css-fundamentals-learning-objectives.md
-│   │   │   ├── 01_getting-css-into-your-html.md
-│   │   │   ├── 02_css-selectors.md
-│   │   │   ├── 03_css-type-properties-and-imports.md
-│   │   │   ├── 04_css-colors-borders-and-shadows.md
-│   │   │   ├── images
-│   │   │   │   ├── RBG_color_wheel.svg
-│   │   │   │   ├── SVG_Recognized_color_keyword_names.svg
-│   │   │   │   ├── craigslist-homepage-example.png
-│   │   │   │   ├── craigslist-homepage-updated.png
-│   │   │   │   ├── peace-symbol-emoji.png
-│   │   │   │   ├── properties-colors-mcdonalds.jpg
-│   │   │   │   ├── properties-custom-font-name.png
-│   │   │   │   ├── properties-em-font-size.png
-│   │   │   │   ├── properties-generic-font-names.png
-│   │   │   │   ├── properties-rem-font-size.png
-│   │   │   │   ├── properties-text-transform.png
-│   │   │   │   ├── properties-type-blocks.jpg
-│   │   │   │   └── properties-using-google-font.png
-│   │   │   ├── proj_modernize-craigslist.md
-│   │   │   └── w09-d2_basic-css.md
+│   │   │   └── images
 │   │   ├── misc
 │   │   ├── official
 │   │   ├── past-soln
@@ -497,74 +714,7 @@
 │   ├── D4
 │   │   ├── first-attempt
 │   │   ├── mds
-│   │   │   ├── 00a_media-query-learning-objectives.md
-│   │   │   ├── 00b_box-model-and-positioning-learning-objectives.md
-│   │   │   ├── 00c_flexible-box-model-learning-objectives.md
-│   │   │   ├── 00d_grid-layout-learning-objectives.md
-│   │   │   ├── 01_the-box-model.md
-│   │   │   ├── 02_positioning.md
-│   │   │   ├── 03_flexible-box-model.md
-│   │   │   ├── 04_grid-layout-part-1.md
-│   │   │   ├── 05_grid-layout-part-2.md
-│   │   │   ├── 06_grid-layout-part-3.md
-│   │   │   ├── 07_media-queries.md
-│   │   │   ├── 08_flexbox-fun.md
-│   │   │   ├── 09_grid-fun.md
-│   │   │   ├── images
-│   │   │   │   ├── 5x4-grid-named-lines.svg
-│   │   │   │   ├── 5x4-grid-num-lines.svg
-│   │   │   │   ├── absolute-blue-box.png
-│   │   │   │   ├── absolute-pink-box.png
-│   │   │   │   ├── border-box.svg
-│   │   │   │   ├── browser-responsive-tool-button.png
-│   │   │   │   ├── browser-responsive-tool.png
-│   │   │   │   ├── css-layout-sticky-positioning.gif
-│   │   │   │   ├── element-margin-auto.png
-│   │   │   │   ├── element-no-padding.png
-│   │   │   │   ├── element-with-padding.png
-│   │   │   │   ├── fixed-element-scroll.png
-│   │   │   │   ├── fixed-element.png
-│   │   │   │   ├── flex-direction.png
-│   │   │   │   ├── flex-wrap.png
-│   │   │   │   ├── flexbox-elements.png
-│   │   │   │   ├── float-cleared.png
-│   │   │   │   ├── float-not-cleared.png
-│   │   │   │   ├── grid-gaps.svg
-│   │   │   │   ├── grid-justify-content.svg
-│   │   │   │   ├── grid-layout.svg
-│   │   │   │   ├── grid-project-mockup.svg
-│   │   │   │   ├── grid-project-section-2-full-layout.png
-│   │   │   │   ├── grid-project-section-3-full-layout.png
-│   │   │   │   ├── grid-template-areas.svg
-│   │   │   │   ├── nyt-home-1.png
-│   │   │   │   ├── nyt-home-3.png
-│   │   │   │   ├── nyt-home-4.png
-│   │   │   │   ├── nyt-home-5.png
-│   │   │   │   ├── nyt-home-6.png
-│   │   │   │   ├── nyt-home-7.png
-│   │   │   │   ├── nyt-home-solution-screenshot.png
-│   │   │   │   ├── relative-parent-absolute-child.png
-│   │   │   │   ├── relative-pink-box.png
-│   │   │   │   ├── standard-box.svg
-│   │   │   │   ├── static-parent-absolute-child.png
-│   │   │   │   ├── static-pink-box.png
-│   │   │   │   ├── sticky-element-scroll.png
-│   │   │   │   ├── sticky-element.png
-│   │   │   │   ├── the-box-model.svg
-│   │   │   │   ├── trello-boards.png
-│   │   │   │   ├── trello-header-navbar.png
-│   │   │   │   ├── trello-large-screen.png
-│   │   │   │   ├── trello-medium-screen.png
-│   │   │   │   ├── trello-my-team.png
-│   │   │   │   ├── trello-small-screen.png
-│   │   │   │   └── trello-tabbed-navbar.png
-│   │   │   ├── proj1_recreate-trello.md
-│   │   │   ├── proj2a_project-overview.md
-│   │   │   ├── proj2b_grid-project-phase-1.md
-│   │   │   ├── proj2c_grid-project-phase-2.md
-│   │   │   ├── proj2d_grid-project-phase-3.md
-│   │   │   ├── proj2e_grid-project-phase-4.md
-│   │   │   └── w09-d4_all-the-layouts.md
+│   │   │   └── images
 │   │   ├── misc
 │   │   ├── official
 │   │   ├── past-soln
@@ -572,27 +722,7 @@
 │   ├── D5
 │   │   ├── first-attempt
 │   │   ├── mds
-│   │   │   ├── 00a_interactivity-learning-objectives.md
-│   │   │   ├── 00b_css-maintainability-learning-objectives.md
-│   │   │   ├── 01_hover-and-overflow.md
-│   │   │   ├── 02_transitions.md
-│   │   │   ├── 03_bem-guidelines.md
-│   │   │   ├── 04_prepare-for-a-big-project.md
-│   │   │   ├── images
-│   │   │   │   ├── browser-default-styles.png
-│   │   │   │   ├── example-css-transition-multiple.gif
-│   │   │   │   └── example-css-transition-simple.gif
-│   │   │   ├── proj1_whack-a-mole.md
-│   │   │   ├── proj2a_aa-times-overview.md
-│   │   │   ├── proj2b_aa-times-the-masthead.md
-│   │   │   ├── proj2c_aa-times-main-navigation.md
-│   │   │   ├── proj2d_aa-times-interest-links.md
-│   │   │   ├── proj2e_preferences-dropdown.md
-│   │   │   ├── proj2f_search-input.md
-│   │   │   ├── proj2g_articles.md
-│   │   │   ├── proj2h_main-media-queries.md
-│   │   │   ├── proj2i_bonus-slide-in-sidebar.md
-│   │   │   └── w09-d5_interactivity,-maintainability-&amp;-aa-times.md
+│   │   │   └── images
 │   │   ├── misc
 │   │   ├── official
 │   │   ├── past-soln
@@ -600,188 +730,155 @@
 │   ├── d3
 │   │   ├── first-attempt
 │   │   ├── mds
-│   │   │   ├── 00_ajax-learning-objectives.md
-│   │   │   ├── 01_intro-to-ajax.md
-│   │   │   ├── 02_the-steps-of-ajax.md
-│   │   │   ├── images
-│   │   │   │   ├── ajax-dom-update.png
-│   │   │   │   ├── ajax-js-call.png
-│   │   │   │   ├── ajax-patch-request.png
-│   │   │   │   ├── ajax-server-response.png
-│   │   │   │   ├── ajax.svg
-│   │   │   │   ├── book-form.png
-│   │   │   │   ├── book-show.png
-│   │   │   │   ├── book-updated.png
-│   │   │   │   └── pre-ajax.svg
-│   │   │   ├── proj0_prep.md
-│   │   │   ├── proj1_catstagram.md
-│   │   │   └── w09-d3_ajax.md
+│   │   │   └── images
 │   │   ├── misc
 │   │   ├── official
 │   │   ├── past-soln
 │   │   └── resources
+│   ├── documentation
 │   ├── misc
+│   │   ├── D2
+│   │   ├── D4
+│   │   ├── D5
 │   │   ├── Documentation
 │   │   ├── cheat-sheets
-│   │   │   ├── CSS-Cheat-Sheet.pdf
-│   │   │   ├── CSS_Selector_Cheat_Sheet_-_Dark.pdf
-│   │   │   ├── flexbox-cheatsheet.pdf
-│   │   │   └── grid-cheatsheet.pdf
+│   │   ├── d3
 │   │   ├── past cohort
 │   │   ├── personal projects
 │   │   └── reading
 │   └── unsorted
-│       ├── responsive-design-aa-times-master
-│       │   └── responsive-design-aa-times-master
-│       │       ├── images
-│       │       │   ├── AA_Times_Logo.png
-│       │       │   ├── aa-times.png
-│       │       │   ├── cat.png
-│       │       │   ├── dog.png
-│       │       │   ├── new_office.jpg
-│       │       │   ├── plug.png
-│       │       │   └── sun-icon.png
-│       │       ├── index.html
-│       │       ├── scripts
-│       │       ├── specifications
-│       │       │   ├── screenshots
-│       │       │   │   ├── 1000px-small-mobile-aa-times.png
-│       │       │   │   ├── 1020px-medium-aa-times.png
-│       │       │   │   ├── 1230px-large-aa-times.png
-│       │       │   │   ├── gear-drop.gif
-│       │       │   │   ├── interests-bar-marked-up.png
-│       │       │   │   ├── interests-bar-subclasses-shown.png
-│       │       │   │   ├── interests-bar.png
-│       │       │   │   ├── main-content-and-opinions.png
-│       │       │   │   ├── masthead-marked-with-rows-and-columns.png
-│       │       │   │   ├── masthead-marked-with-rows.png
-│       │       │   │   ├── masthead-with-sections.png
-│       │       │   │   ├── masthead.png
-│       │       │   │   ├── search.gif
-│       │       │   │   ├── sidebar-mock.png
-│       │       │   │   └── sidebar.gif
-│       │       │   └── text
-│       │       │       ├── 01_masthead.txt
-│       │       │       ├── 02_sections_nav.txt
-│       │       │       ├── 03_interest_links.txt
-│       │       │       ├── 04_gear_drop_down.txt
-│       │       │       ├── 05_main_content.txt
-│       │       │       ├── 06_sidebar_submenus.txt
-│       │       │       └── styles.md
-│       │       └── stylesheets
-│       │           ├── components
-│       │           │   ├── gear-dropdown.css
-│       │           │   ├── interest-links.css
-│       │           │   ├── main-content.css
-│       │           │   ├── main-nav.css
-│       │           │   ├── masthead.css
-│       │           │   ├── search-modal.css
-│       │           │   ├── sections-nav.css
-│       │           │   └── sections-sidebar.css
-│       │           ├── global.css
-│       │           ├── home-page.css
-│       │           ├── main-styles.css
-│       │           └── reset.css
-│       └── responsive-design-whack-a-mole-master
-│           └── responsive-design-whack-a-mole-master
-│               ├── mole-head.png
-│               ├── mole-hill.png
-│               ├── mole.css
-│               ├── mole.html
-│               └── mole.js
+│       ├── days
+│       │   ├── friday
+│       │   │   ├── Aug-2020-official
+│       │   │   │   ├── Eod
+│       │   │   │   │   └── Learning-Objectives
+│       │   │   │   ├── Lecture
+│       │   │   │   └── Other
+│       │   │   ├── Misc-Unsorted
+│       │   │   ├── My-Notes
+│       │   │   │   ├── Documentation
+│       │   │   │   ├── External-Resources
+│       │   │   │   └── Lecture
+│       │   │   ├── Past-Cohort
+│       │   │   │   ├── Misc-Unsorted
+│       │   │   │   ├── Project-Solutions
+│       │   │   │   ├── Redings
+│       │   │   │   └── Useful
+│       │   │   └── Projects
+│       │   │       ├── Attempted
+│       │   │       ├── Official-or-other-solutions
+│       │   │       └── Zipped-folders
+│       │   ├── monday
+│       │   │   ├── Aug-2020-official
+│       │   │   │   ├── Eod
+│       │   │   │   │   └── Learning-Objectives
+│       │   │   │   ├── Lecture
+│       │   │   │   └── Other
+│       │   │   ├── Misc-Unsorted
+│       │   │   ├── My-Notes
+│       │   │   │   ├── Documentation
+│       │   │   │   ├── External-Resources
+│       │   │   │   └── Lecture
+│       │   │   ├── Past-Cohort
+│       │   │   │   ├── Misc-Unsorted
+│       │   │   │   ├── Project-Solutions
+│       │   │   │   ├── Redings
+│       │   │   │   └── Useful
+│       │   │   └── Projects
+│       │   │       ├── Attempted
+│       │   │       ├── Official-or-other-solutions
+│       │   │       └── Zipped-folders
+│       │   ├── thursday
+│       │   │   ├── Aug-2020-official
+│       │   │   │   ├── Eod
+│       │   │   │   │   └── Learning-Objectives
+│       │   │   │   ├── Lecture
+│       │   │   │   └── Other
+│       │   │   ├── Misc-Unsorted
+│       │   │   ├── My-Notes
+│       │   │   │   ├── Documentation
+│       │   │   │   ├── External-Resources
+│       │   │   │   └── Lecture
+│       │   │   ├── Past-Cohort
+│       │   │   │   ├── Misc-Unsorted
+│       │   │   │   ├── Project-Solutions
+│       │   │   │   ├── Redings
+│       │   │   │   └── Useful
+│       │   │   │       └── W09D4-LOs
+│       │   │   └── Projects
+│       │   │       ├── Attempted
+│       │   │       ├── Official-or-other-solutions
+│       │   │       │   └── W09D4-solutions
+│       │   │       └── Zipped-folders
+│       │   ├── tuesday
+│       │   │   ├── Aug-2020-official
+│       │   │   │   ├── Eod
+│       │   │   │   │   └── Learning-Objectives
+│       │   │   │   ├── Lecture
+│       │   │   │   ├── Other
+│       │   │   │   └── W09D2-LOs
+│       │   │   │       └── W09D2-LOs
+│       │   │   ├── Misc-Unsorted
+│       │   │   ├── My-Notes
+│       │   │   │   ├── Documentation
+│       │   │   │   ├── External-Resources
+│       │   │   │   └── Lecture
+│       │   │   ├── Past-Cohort
+│       │   │   │   ├── Misc-Unsorted
+│       │   │   │   ├── Project-Solutions
+│       │   │   │   ├── Redings
+│       │   │   │   └── Useful
+│       │   │   └── Projects
+│       │   │       ├── Attempted
+│       │   │       ├── Official-or-other-solutions
+│       │   │       └── Zipped-folders
+│       │   └── wednesday
+│       │       ├── Aug-2020-official
+│       │       │   ├── Eod
+│       │       │   │   └── Learning-Objectives
+│       │       │   ├── Lecture
+│       │       │   └── Other
+│       │       ├── Misc-Unsorted
+│       │       ├── My-Notes
+│       │       │   ├── Documentation
+│       │       │   ├── External-Resources
+│       │       │   │   └── W09D3-LOs
+│       │       │   └── Lecture
+│       │       ├── Past-Cohort
+│       │       │   ├── Misc-Unsorted
+│       │       │   ├── Project-Solutions
+│       │       │   ├── Redings
+│       │       │   └── Useful
+│       │       └── Projects
+│       │           ├── Attempted
+│       │           ├── Official-or-other-solutions
+│       │           └── Zipped-folders
+│       ├── responsive-design-whack-a-mole-master
+│       │   └── responsive-design-whack-a-mole-master
+│       └── test-prep
 └── test-prep
     ├── Moc-Tests
+    │   ├── css_practice_assessment
+    │   │   └── starter
     │   └── practice
     │       ├── solution
-    │       │   ├── README.md
-    │       │   ├── test.html
-    │       │   └── your-code.css
     │       └── starter
-    │           ├── README.md
-    │           └── test.html
     ├── Student-Made-possibly-Imperfect
-    │   ├── quizlet.pdf
-    │   ├── w9_learning_objectives.md
-    │   └── week-9-NOTES.md
     ├── Study-Guides
     │   ├── W09-LOs
-    │   │   ├── W09-LOs-empty.md
-    │   │   ├── W09-LOs-explained.md
-    │   │   ├── ajax.svg
-    │   │   └── pseudo-elements.png
     │   └── W9
     │       └── W9
     │           ├── CSS Box Model_files
-    │           │   ├── analytics.js.download
-    │           │   ├── apstag.js.download
-    │           │   ├── async-ads.js.download
-    │           │   ├── cleardot.gif
-    │           │   ├── colorpicker.gif
-    │           │   ├── cse_element__en.js.download
-    │           │   ├── css
-    │           │   ├── default+en.css
-    │           │   ├── default.css
-    │           │   ├── element_main.js.download
-    │           │   ├── f(1).txt
-    │           │   ├── f(2).txt
-    │           │   ├── f.txt
-    │           │   ├── gpt.js.download
-    │           │   ├── js
-    │           │   ├── main.js.download
-    │           │   ├── prebid.js.download
-    │           │   ├── pubads_impl_2020080501.js.download
-    │           │   ├── saved_resource
-    │           │   ├── saved_resource(1).html
-    │           │   ├── saved_resource(2).html
-    │           │   ├── saved_resource(3).html
-    │           │   ├── saved_resource.html
-    │           │   ├── sncmp.min.js.download
-    │           │   ├── sncmp_stub.min.js.download
-    │           │   ├── snhb-loader.min.js.download
-    │           │   ├── snhb-w3schools.com.min.js.download
-    │           │   ├── snhbGlobalSettings.js.download
-    │           │   ├── snhbMLSettings.js.download
-    │           │   ├── translate_24dp.png
-    │           │   ├── translateelement.css
-    │           │   ├── w3.css
-    │           │   ├── w3schools_footer.js.download
-    │           │   └── w3schoolscom_gray.gif
-    │           ├── HubSpot _ CSS Margin vs Padding-1.png
     │           ├── ajax-practice
-    │           │   ├── 01-fetch-get.js
-    │           │   ├── LICENSE.txt
-    │           │   ├── README.md
-    │           │   ├── package-lock.json
-    │           │   ├── package.json
-    │           │   ├── solution.js
-    │           │   ├── test
-    │           │   │   ├── 01-fetch-get-spec.js
-    │           │   │   ├── node-dom.js
-    │           │   │   ├── node-fetch.js
-    │           │   │   └── response.js
-    │           │   └── test-page.html
-    │           ├── box-sizing-comparison.png
-    │           ├── boxmodel.png
-    │           ├── css-starter-practice
-    │           │   ├── README.md
-    │           │   └── test.html
-    │           ├── css_positions-1024x349.png
-    │           ├── learning_objectives_empty.md
-    │           └── learning_objectives_filled_in.md
+    │           │   └── test
+    │           └── css-starter-practice
     ├── materials
-    │   ├── CSS Cards.apkg
     │   └── unsorted
-    │       ├── ch16a_css-flex-grid.html
-    │       └── css_positioning.html
     ├── practice
     └── weeks-LOs
         └── W09-LOs
-            ├── W09-LOs-empty.md
-            ├── W09-LOs-explained.md
-            ├── ajax.svg
-            └── pseudo-elements.png
 
-300 directories, 479 files
+877 directories
 ```
 **
 
