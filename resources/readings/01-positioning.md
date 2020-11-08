@@ -1,18 +1,8 @@
-# App Academy Open
 
-> Learn to code online with access to App Academy’s entire full-stack course for free
-
-*   ⏱ 15 minutes
-    
-
-*   Catalog
-*   Js Py Sep 2020 Online
-*   Week 9 Sep 2020 Online
-*   Positioning
 
 The CSS property `position` allows us to set the position of elements on a page and is an integral part of creating a Web page layout.
 
-In this reading, we’ll review the different types of CSS positions we can apply to elements and how they affect the layout of the page. If you _stick_ with it, when you’re finished you should be _relatively_ well-versed in CSS positioning properties and _absolutely_ able to create professional page layouts!
+In this reading, we'll review the different types of CSS positions we can apply to elements and how they affect the layout of the page. If you _stick_ with it, when you're finished you should be _relatively_ well-versed in CSS positioning properties and _absolutely_ able to create professional page layouts!
 
 Positioning elements allows us to manipulate where those elements appear on the page. Some position properties go with _the page flow_, while a couple of properties cause an element to be _removed from the flow_. The flow of a page refers to the relationship of block and inline elements before positioning or other layout changes occur. (_See the MDN doc on [Flow Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout) for more info._)
 
@@ -24,7 +14,7 @@ The [position](https://developer.mozilla.org/en-US/docs/Web/CSS/position) proper
 *   Fixed
 *   Sticky
 
-All properties except for `static` are used in conjunction with the properties `top`, `right`, `bottom` and `left` to ultimately determine an element’s position on the page. The `top`, `right`, `left` and `bottom` properties are all optional, except in the case of a sticky element, which requires at least one of the four properties to be set.
+All properties except for `static` are used in conjunction with the properties `top`, `right`, `bottom` and `left` to ultimately determine an element's position on the page. The `top`, `right`, `left` and `bottom` properties are all optional, except in the case of a sticky element, which requires at least one of the four properties to be set.
 
 For the rest of this article, the examples use the following HTML and base CSS.
 
@@ -69,7 +59,7 @@ Static positioning
 
 Static is the default position value of page elements. A `static` element is not considered to be _positioned_ on the page, since it will appear normally according to the page flow. The properties `top`, `right`, `bottom`, `left` and `z-index` do not affect static elements.
 
-You probably won’t use this value much, unless you are overriding other values with it, but this is how to set an element to be static.
+You probably won't use this value much, unless you are overriding other values with it, but this is how to set an element to be static.
 
 **CSS:**
 
@@ -103,7 +93,7 @@ The `top`, `right`, `bottom`, and `left` properties take a length which, as you 
 Absolute positioning
 --------------------
 
-An absolutely positioned element is removed from the page flow, and other elements around it act like it’s not there. The element is positioned in relation to its closest _positioned_ ancestor, or, if one cannot be found, to the `<html>` document. It can be offset from that position using the `top`, `right`, `bottom` and `left` properties. Absolute positioning creates a [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) -- overlapping elements whose order can be set by the `z-index` property. (See the MDN doc on [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) for an example.)
+An absolutely positioned element is removed from the page flow, and other elements around it act like it's not there. The element is positioned in relation to its closest _positioned_ ancestor, or, if one cannot be found, to the `<html>` document. It can be offset from that position using the `top`, `right`, `bottom` and `left` properties. Absolute positioning creates a [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) -- overlapping elements whose order can be set by the `z-index` property. (See the MDN doc on [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) for an example.)
 
 ### Example of an absolutely positioned element
 
@@ -187,7 +177,7 @@ If you had not relative positioned the container element, the browser would try 
 Fixed positioning
 -----------------
 
-A fixed element is removed from the page flow, like an absolutely positioned element. However, unlike an absolutely positioned element, a fixed element’s position is relative to the `<html>` document itself and not to an ancestor element. It is positioned using the `top`, `right`, `bottom` and `left` properties. Fixed positioning creates a [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) -- overlapping elements whose order can be set by the `z-index` property. (See the MDN doc on [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) for an example.)
+A fixed element is removed from the page flow, like an absolutely positioned element. However, unlike an absolutely positioned element, a fixed element's position is relative to the `<html>` document itself and not to an ancestor element. It is positioned using the `top`, `right`, `bottom` and `left` properties. Fixed positioning creates a [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) -- overlapping elements whose order can be set by the `z-index` property. (See the MDN doc on [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) for an example.)
 
 A fixed element will remain in the same spot on the page, regardless of the size of the window or whether a user scrolls.
 
@@ -211,7 +201,7 @@ Fixed positioning can be useful for things like nav bars, buttons, links, videos
 Sticky positioning
 ------------------
 
-A sticky element remains in its original position in the page flow, and it is positioned relative to its closest block-level ancestor and any _scrolling_ ancestors (created when `overflow` is `hidden`, `scroll`, `auto`, or `overlay`). It behaves like a relatively positioned element until the point at which you would normally scroll past it in the viewport. At that scrolling point, the element “sticks” to the page wherever it has been positioned by the `top`, `left`, `bottom` and `right` properties. Sticky positioning creates a [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) -- overlapping elements whose order can be set by the `z-index` property. (See the MDN doc on [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) for an example.)
+A sticky element remains in its original position in the page flow, and it is positioned relative to its closest block-level ancestor and any _scrolling_ ancestors (created when `overflow` is `hidden`, `scroll`, `auto`, or `overlay`). It behaves like a relatively positioned element until the point at which you would normally scroll past it in the viewport. At that scrolling point, the element "sticks" to the page wherever it has been positioned by the `top`, `left`, `bottom` and `right` properties. Sticky positioning creates a [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) -- overlapping elements whose order can be set by the `z-index` property. (See the MDN doc on [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) for an example.)
 
 You must set at least one threshold value using `top`, `right`, `bottom` or `left` in order for sticky positioning to work. A sticky element will start off as _relatively_ positioned until you scroll past its original position -- at which point it will be _fixed_ to the position you specified.
 

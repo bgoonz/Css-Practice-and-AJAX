@@ -19,7 +19,9 @@
         "/*ini": true,
         "desktop.ini": true,
         "**/.vscode": true,
-        ".vscode": true
+        ".vscode": true,
+        "**/.vs": true,
+        ".vs": true
     },
     "explorerExclude.backup": null
 }
