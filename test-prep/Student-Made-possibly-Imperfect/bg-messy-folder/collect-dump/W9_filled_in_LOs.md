@@ -296,7 +296,8 @@ document.querySelector('#downvote').addEventListener('click', () => {
     .then(updateImageScore) // updateImageScore defined below for reference
     .catch(handleError); // handleError defined below for reference
 });
-
+```
+```js
 // Using async/await
 document.querySelector('#downvote').addEventListener('click', async () => { // Notice the async keyword on the callback definition!
 // We create a standard try/catch block
@@ -310,7 +311,8 @@ document.querySelector('#downvote').addEventListener('click', async () => { // N
     handleError(e)
   }
 });
-
+```
+```js
 // Functions used above, for reference
 const handleResponse = (response) => {
 	stopLoader();
